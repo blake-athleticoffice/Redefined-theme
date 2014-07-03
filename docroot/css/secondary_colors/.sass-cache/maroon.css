@@ -1,0 +1,43 @@
+.secondary-maroon a:hover {
+  color: maroon; }
+.secondary-maroon h1.navbar-brand_ strong {
+  background: maroon; }
+.secondary-maroon nav.tm_navbar li.active > a {
+  border-bottom: 6px solid maroon;
+  color: maroon; }
+.secondary-maroon nav.tm_navbar li > a:hover {
+  color: maroon;
+  border-bottom: 6px solid maroon; }
+.secondary-maroon .nav .open > a,
+.secondary-maroon .nav .open > a:hover,
+.secondary-maroon .nav .open > a:focus {
+  border-color: maroon; }
+.secondary-maroon .theme-btn {
+  color: #fff;
+  background-color: maroon;
+  border-color: maroon; }
+.secondary-maroon .btn-default:hover, .secondary-maroon .btn-default:focus {
+  color: maroon;
+  background-color: #fff;
+  border-color: maroon; }
+.secondary-maroon .btn-primary:hover, .secondary-maroon .btn-primary:focus, .secondary-maroon .btn-primary:active, .secondary-maroon .btn-primary.active, .secondary-maroon .open .btn-primary.dropdown-toggle {
+  color: white;
+  background-color: maroon;
+  border-color: maroon; }
+.secondary-maroon .btn-primary {
+  color: maroon;
+  background-color: transparent;
+  border: 1px solid maroon; }
+.secondary-maroon .hr span {
+  background: maroon; }
+.secondary-maroon .theme-color {
+  color: maroon; }
+.secondary-maroon .portlet-title {
+  color: maroon; }
+.secondary-maroon .copyright {
+  background-color: maroon; }
+.secondary-maroon .copyright p {
+  color: #999; }
+.secondary-maroon .copyright a {
+  color: #999; }
+

@@ -1,0 +1,43 @@
+.secondary-yellow a:hover {
+  color: #ffe800; }
+.secondary-yellow h1.navbar-brand_ strong {
+  background: #ffe800; }
+.secondary-yellow nav.tm_navbar li.active > a {
+  border-bottom: 6px solid #ffe800;
+  color: #ffe800; }
+.secondary-yellow nav.tm_navbar li > a:hover {
+  color: #ffe800;
+  border-bottom: 6px solid #ffe800; }
+.secondary-yellow .nav .open > a,
+.secondary-yellow .nav .open > a:hover,
+.secondary-yellow .nav .open > a:focus {
+  border-color: #ffe800; }
+.secondary-yellow .theme-btn {
+  color: #fff;
+  background-color: #ffe800;
+  border-color: #ffe800; }
+.secondary-yellow .btn-default:hover, .secondary-yellow .btn-default:focus {
+  color: #ffe800;
+  background-color: #fff;
+  border-color: #ffe800; }
+.secondary-yellow .btn-primary:hover, .secondary-yellow .btn-primary:focus, .secondary-yellow .btn-primary:active, .secondary-yellow .btn-primary.active, .secondary-yellow .open .btn-primary.dropdown-toggle {
+  color: white;
+  background-color: #ffe800;
+  border-color: #ffe800; }
+.secondary-yellow .btn-primary {
+  color: #ffe800;
+  background-color: transparent;
+  border: 1px solid #ffe800; }
+.secondary-yellow .hr span {
+  background: #ffe800; }
+.secondary-yellow .theme-color {
+  color: #ffe800; }
+.secondary-yellow .portlet-title {
+  color: #ffe800; }
+.secondary-yellow .copyright {
+  background-color: #ffe800; }
+.secondary-yellow .copyright p {
+  color: #bbb; }
+.secondary-yellow .copyright a {
+  color: #bbb; }
+

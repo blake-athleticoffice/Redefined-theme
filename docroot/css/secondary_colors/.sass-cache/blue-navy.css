@@ -1,0 +1,43 @@
+.secondary-blue-navy a:hover {
+  color: #004983; }
+.secondary-blue-navy h1.navbar-brand_ strong {
+  background: #004983; }
+.secondary-blue-navy nav.tm_navbar li.active > a {
+  border-bottom: 6px solid #004983;
+  color: #004983; }
+.secondary-blue-navy nav.tm_navbar li > a:hover {
+  color: #004983;
+  border-bottom: 6px solid #004983; }
+.secondary-blue-navy .nav .open > a,
+.secondary-blue-navy .nav .open > a:hover,
+.secondary-blue-navy .nav .open > a:focus {
+  border-color: #004983; }
+.secondary-blue-navy .theme-btn {
+  color: #fff;
+  background-color: #004983;
+  border-color: #004983; }
+.secondary-blue-navy .btn-default:hover, .secondary-blue-navy .btn-default:focus {
+  color: #004983;
+  background-color: #fff;
+  border-color: #004983; }
+.secondary-blue-navy .btn-primary:hover, .secondary-blue-navy .btn-primary:focus, .secondary-blue-navy .btn-primary:active, .secondary-blue-navy .btn-primary.active, .secondary-blue-navy .open .btn-primary.dropdown-toggle {
+  color: white;
+  background-color: #004983;
+  border-color: #004983; }
+.secondary-blue-navy .btn-primary {
+  color: #004983;
+  background-color: transparent;
+  border: 1px solid #004983; }
+.secondary-blue-navy .hr span {
+  background: #004983; }
+.secondary-blue-navy .theme-color {
+  color: #004983; }
+.secondary-blue-navy .portlet-title {
+  color: #004983; }
+.secondary-blue-navy .copyright {
+  background-color: #004983; }
+.secondary-blue-navy .copyright p {
+  color: #999; }
+.secondary-blue-navy .copyright a {
+  color: #999; }
+

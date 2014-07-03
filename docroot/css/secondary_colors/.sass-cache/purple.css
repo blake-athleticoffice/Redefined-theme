@@ -1,0 +1,43 @@
+.secondary-purple a:hover {
+  color: #553679; }
+.secondary-purple h1.navbar-brand_ strong {
+  background: #553679; }
+.secondary-purple nav.tm_navbar li.active > a {
+  border-bottom: 6px solid #553679;
+  color: #553679; }
+.secondary-purple nav.tm_navbar li > a:hover {
+  color: #553679;
+  border-bottom: 6px solid #553679; }
+.secondary-purple .nav .open > a,
+.secondary-purple .nav .open > a:hover,
+.secondary-purple .nav .open > a:focus {
+  border-color: #553679; }
+.secondary-purple .theme-btn {
+  color: #fff;
+  background-color: #553679;
+  border-color: #553679; }
+.secondary-purple .btn-default:hover, .secondary-purple .btn-default:focus {
+  color: #553679;
+  background-color: #fff;
+  border-color: #553679; }
+.secondary-purple .btn-primary:hover, .secondary-purple .btn-primary:focus, .secondary-purple .btn-primary:active, .secondary-purple .btn-primary.active, .secondary-purple .open .btn-primary.dropdown-toggle {
+  color: white;
+  background-color: #553679;
+  border-color: #553679; }
+.secondary-purple .btn-primary {
+  color: #553679;
+  background-color: transparent;
+  border: 1px solid #553679; }
+.secondary-purple .hr span {
+  background: #553679; }
+.secondary-purple .theme-color {
+  color: #553679; }
+.secondary-purple .portlet-title {
+  color: #553679; }
+.secondary-purple .copyright {
+  background-color: #553679; }
+.secondary-purple .copyright p {
+  color: #999; }
+.secondary-purple .copyright a {
+  color: #999; }
+

@@ -1,0 +1,47 @@
+.light header.redefined {
+  background: #111; }
+.light h1.navbar-brand_ span {
+  color: #777; }
+.light h1.navbar-brand_ span small {
+  font-size: 50%;
+  opacity: .7; }
+.light .menuBox {
+  background: #FFF; }
+.light nav.tm_navbar li a {
+  color: #999; }
+.light nav.tm_navbar li > a:hover {
+  color: #e4e4e4; }
+.light nav.tm_navbar li.active > a {
+  color: #e4e4e4;
+  background: transparent;
+  border-bottom: 6px solid #ccc; }
+.light .copyright {
+  background-color: #CCC; }
+.light .copyright p {
+  color: #777; }
+.light .sub_pic {
+  border-bottom: 1px solid #eaebee; }
+.light footer {
+  background: #FFF;
+  border-top: 1px solid #eaebee; }
+.light footer {
+  background-image: url(/Redefined-theme/images/bg-footer-light.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain; }
+.light footer h1.footer-brand {
+  color: #777; }
+.light footer p {
+  color: #666; }
+.light footer a {
+  color: #666; }
+.light nav.tm_navbar li.active > a {
+  color: #e4e4e4;
+  background: transparent;
+  border-bottom: 6px solid #ccc; }
+.light #nav-toggle {
+  background-color: transparent;
+  color: #bbb;
+  border: none;
+  border-color: transparent; }
+
