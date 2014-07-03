@@ -1,0 +1,65 @@
+@import "compass";
+@import "redefined-variables";
+
+
+.secondary-gold {
+	a:hover {
+	color: $color-gold;
+}
+	
+h1.navbar-brand_ strong {
+background: $color-gold;
+}
+nav.tm_navbar li.active > a {
+color:$color-gold;
+border-bottom: 6px solid $color-gold;
+}
+nav.tm_navbar li>a:hover {
+color: $color-gold;
+border-bottom: 6px solid $color-gold;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: $color-gold;
+}
+.theme-btn {
+color: #fff;
+background-color: $color-gold;
+border-color: $color-gold;
+}
+.btn-default:hover,.btn-default:focus  {
+color: $color-gold;
+background-color: #fff;
+border-color: $color-gold;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .btn-primary.dropdown-toggle {
+color: white;
+background-color: $color-gold;
+border-color: $color-gold;
+}
+.btn-primary {
+color: $color-gold;
+background-color: transparent;
+border: 1px solid $color-gold;
+}
+.hr span {
+background: $color-gold;
+}
+.theme-color {
+color: $color-gold;
+}
+.portlet-title {
+color: $color-gold;
+}
+.copyright {
+background-color: $color-gold;
+}
+.copyright p {
+color: #bbb;
+}
+.copyright a {
+color: #bbb;
+}
+
+}

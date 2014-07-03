@@ -1,0 +1,233 @@
+.portlet-title {
+	color: #FFF;
+}
+#nav>li>a{
+margin-bottom: -20px;
+padding-bottom: 20px;
+margin-top: -26px;
+padding-top: 26px;
+}
+a {
+color: inherit;
+font-weight: 200;
+text-decoration: none;
+}
+a:hover, a:focus {
+color: #666;
+text-decoration: none;
+}
+#wrapper {
+padding: 0;
+}
+#content {
+max-width: 1200px;
+margin: -12px auto 0;
+background: rgba(255, 255, 255, 0.85);
+}
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+text-decoration: none;
+}
+
+.navbar .navbar-brand > a {
+text-decoration: none;
+}
+.masthead-logo img {
+height: 100px;
+width: auto;
+}
+footer .hr {
+background: transparent;
+}
+footer .follow_icon li {
+margin-left: 10px;
+}
+
+
+/* ---------- Portlets ---------- */
+
+
+
+
+#content > section {
+margin: 0px;
+padding: 0px;
+width:100%;
+}
+
+#column-1, #column-2, #column-3 {
+padding: 0px;
+}
+
+
+.portlet-title-text:empty {
+padding: 0px;
+}
+
+.open > .dropdown-menu {
+display: block;
+}
+
+/* ---------- Redefined Custom ---------- */
+.theme-header {
+font-family: 'Orbitron', sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+}
+h1.navbar-brand_ img {
+height: 100px;
+display: inline-block;
+}
+h1.navbar-brand_ a img {
+height: 100px;
+width: auto;
+}
+.sub_pic img {
+width: 100%;
+}
+.global.indent {
+padding-bottom: 40px;
+}
+.portlet-topper {
+text-align: center;
+}
+.portlet-title {
+color: #DCDCDC;
+}
+.portlet-title-text {
+width: 100%;
+font: bold 36px / 36px "Orbitron";
+text-transform: uppercase !Important;
+margin-bottom: 20px;
+letter-spacing: -1px;
+}
+.portlet-content {
+padding-bottom: 0;
+}
+.portlet-content, .portlet-minimized .portlet-content-container {
+border: none;
+border-top-width: 0;
+padding: 10px;
+}
+portlet-borderless-container {
+padding: 10px;
+}
+.global.indent {
+padding-top: 0;
+}
+.global.indent {
+padding-bottom: 40px;
+}
+footer .follow_icon li {
+float: left;
+margin-left: 20px;
+}
+h1.navbar-brand_ span {
+text-transform: uppercase;
+font: bold 24px/24px 'Orbitron';
+color: #ccc;
+display: block;
+margin-top: 5px;
+}
+.copyright {
+text-align: center;
+padding: 5px 0;
+}
+.copyright p {
+margin: 0;
+color: #555;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+background-color: transparent;
+}
+.mini-header {
+font: bold 14px / 14px "Orbitron";
+text-transform: uppercase;
+margin-top: 5px;
+}
+#main-nav .navbar-brand {
+margin-top: 5px;
+font-size: 16px;
+padding: 10px 0;
+}
+#nav-toggle {
+padding: 0;
+}
+.navbar-toggle {
+margin-right: 0;
+}
+footer {
+padding: 0;
+text-align: center;
+}
+footer .hr {
+margin-bottom: 20px;
+}
+footer figure img {
+height:125px;
+width: auto;
+}
+footer h1.footer-brand {
+width: 100%;
+font: bold 36px/36px 'Orbitron';
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: -1px;
+color: #ccc;
+}
+footer .follow_icon {
+padding: 0;
+margin: 10px 0;
+margin-left: -30px;
+}
+.btn {
+box-shadow: none;
+position: relative;
+text-decoration: none !important;
+padding: 8px 12px;
+font: 500 19px 'Orbitron';
+margin: 0;
+text-shadow: none;
+color: #424d51;
+border: 1px solid #ccc;
+background: none;
+background: #ffffff;
+display: inline-block;
+-webkit-transition: all 0.25s ease;
+transition: all 0.25s ease;
+}
+
+.btn-success {
+color: #4cae4c;
+background-color: transparent;
+border: 1px solid #4cae4c;
+}
+.btn-success :hover, .btn-success :focus, .btn-success :active, .btn-success .active, .open .btn-success .dropdown-toggle {
+color: white;
+background-color: #4cae4c;
+border-color: #4cae4c;
+}
+.btn-warning {
+color: #f0ad4e;
+background-color: transparent;
+border: 1px solid #f0ad4e;
+}
+.btn-warning :hover, .btn-warning :focus, .btn-warning :active, .btn-warning .active, .open .btn-warning .dropdown-toggle {
+color: white;
+background-color: #f0ad4e;
+border-color: #f0ad4e;
+}
+.btn-warning {
+color: #f0ad4e;
+background-color: transparent;
+border: 1px solid #f0ad4e;
+}
+.btn-warning :hover, .btn-warning :focus, .btn-warning :active, .btn-warning .active, .open .btn-warning .dropdown-toggle {
+color: white;
+background-color: #f0ad4e;
+border-color: #f0ad4e;
+}
+h3 {
+margin: 0 0 20px 0;
+font: bold 24px / 24px "Orbitron";
+color: #999;
+}

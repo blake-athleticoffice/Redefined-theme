@@ -1,0 +1,65 @@
+@import "compass";
+@import "redefined-variables";
+
+
+.secondary-green-dark {
+	a:hover {
+	color: $color-green-dark;
+}
+	
+h1.navbar-brand_ strong {
+background: $color-green-dark;
+}
+nav.tm_navbar li.active > a {
+border-bottom: 6px solid $color-green-dark;
+color:$color-green-dark;
+}
+nav.tm_navbar li>a:hover {
+color: $color-green-dark;
+border-bottom: 6px solid $color-green-dark;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: $color-green-dark;
+}
+.theme-btn {
+color: #fff;
+background-color: $color-green-dark;
+border-color: $color-green-dark;
+}
+.btn-default:hover,.btn-default:focus  {
+color: $color-green-dark;
+background-color: #fff;
+border-color: $color-green-dark;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .btn-primary.dropdown-toggle {
+color: white;
+background-color: $color-green-dark;
+border-color: $color-green-dark;
+}
+.btn-primary {
+color: $color-green-dark;
+background-color: transparent;
+border: 1px solid $color-green-dark;
+}
+.hr span {
+background: $color-green-dark;
+}
+.theme-color {
+color: $color-green-dark;
+}
+.portlet-title {
+color: $color-green-dark;
+}
+.copyright {
+background-color: $color-green-dark;
+}
+.copyright p {
+color: #999;
+}
+.copyright a {
+color: #999;
+}
+
+}

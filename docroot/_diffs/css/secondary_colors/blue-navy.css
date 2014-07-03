@@ -1,0 +1,66 @@
+@import "compass";
+@import "redefined-variables";
+
+
+.secondary-blue-navy {
+	a:hover {
+	color: $color-blue-navy;
+}
+	
+h1.navbar-brand_ strong {
+background: $color-blue-navy;
+}
+nav.tm_navbar li.active > a {
+border-bottom: 6px solid $color-blue-navy;
+color:$color-blue-navy;
+}
+nav.tm_navbar li>a:hover {
+color: $color-blue-navy;
+border-bottom: 6px solid $color-blue-navy;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: $color-blue-navy;
+}
+.theme-btn {
+color: #fff;
+background-color: $color-blue-navy;
+border-color: $color-blue-navy;
+}
+.btn-default:hover,.btn-default:focus  {
+color: $color-blue-navy;
+background-color: #fff;
+border-color: $color-blue-navy;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .btn-primary.dropdown-toggle {
+color: white;
+background-color: $color-blue-navy;
+border-color: $color-blue-navy;
+}
+.btn-primary {
+color: $color-blue-navy;
+background-color: transparent;
+border: 1px solid $color-blue-navy;
+}
+.hr span {
+background: $color-blue-navy;
+}
+.theme-color {
+color: $color-blue-navy;
+}
+.portlet-title {
+color: $color-blue-navy;
+}
+.copyright {
+background-color: $color-blue-navy;
+}
+.copyright p {
+color: #999;
+}
+.copyright a {
+color: #999;
+}
+
+
+}

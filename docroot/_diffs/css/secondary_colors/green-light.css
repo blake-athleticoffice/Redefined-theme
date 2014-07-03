@@ -1,0 +1,65 @@
+@import "compass";
+@import "redefined-variables";
+
+
+.secondary-green-light {
+	a:hover {
+	color: $color-green-light;
+}
+	
+h1.navbar-brand_ strong {
+background: $color-green-light;
+}
+nav.tm_navbar li.active > a {
+border-bottom: 6px solid $color-green-light;
+color:$color-green-light;
+}
+nav.tm_navbar li>a:hover {
+color: $color-green-light;
+border-bottom: 6px solid $color-green-light;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: $color-green-light;
+}
+.theme-btn {
+color: #fff;
+background-color: $color-green-light;
+border-color: $color-green-light;
+}
+.btn-default:hover,.btn-default:focus  {
+color: $color-green-light;
+background-color: #fff;
+border-color: $color-green-light;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .btn-primary.dropdown-toggle {
+color: white;
+background-color: $color-green-light;
+border-color: $color-green-light;
+}
+.btn-primary {
+color: $color-green-light;
+background-color: transparent;
+border: 1px solid $color-green-light;
+}
+.hr span {
+background: $color-green-light;
+}
+.theme-color {
+color: $color-green-light;
+}
+.portlet-title {
+color: $color-green-light;
+}
+.copyright {
+background-color: $color-green-light;
+}
+.copyright p {
+color: #bbb;
+}
+.copyright a {
+color: #bbb;
+}
+
+}

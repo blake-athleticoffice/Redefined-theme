@@ -1,0 +1,54 @@
+#set ($css_class = "${css_class}")
+
+#set ($headline =  $theme_settings.site-headline)
+#set ($tagline =  $theme_settings.tagline)
+#set ($favicon =  $theme_settings.favicon)
+
+#set ($background =  $theme_settings.background-image)
+
+#set ($masthead =  $theme_settings.masthead-image)
+#if ($masthead == '')
+#set ($masthead = $images_folder + '/masthead-default.jpg')
+#end
+
+#set ($facebook =  $theme_settings.facebook)
+#set ($twitter =  $theme_settings.twitter)
+#set ($youtube =  $theme_settings.youtube)
+#set ($instagram =  $theme_settings.instagram)
+
+#set ($address =  $theme_settings.address)
+#set ($phone =  $theme_settings.phone)
+#set ($fax =  $theme_settings.fax)
+#set ($email =  $theme_settings.email)
+
+#set ($sec =  $theme_settings.secondary-color)
+
+#if ($headline == '')
+#set ($headline = $site_name)
+#end
+
+#if ($favicon == '')
+#set ($favicon = $images_folder + '/favicon.png')
+#end
+
+
+
+## ----------  Hide Dockbar ---------- ##
+
+#if ($theme_settings.dockbar-transparent == true)
+	#set ($css_class = $css_class + " dockbar-transparent")
+#end
+
+#if ($is_signed_in)
+	#set ($liferay_toggle_controls = $sessionClicks.get($request, "liferay_toggle_controls", ""))
+	#set ($themeNamespace = "_" + $themeDisplay.getThemeId() + "_")
+
+	#if ($liferay_toggle_controls == "")
+		$sessionClicks.put($request, "liferay_toggle_controls", "hidden")
+
+		#set ($liferay_toggle_controls = "hidden")
+		#set ($css_class = $css_class.replaceAll("controls-visible", "controls-hidden"))
+	#end
+#end
+
+

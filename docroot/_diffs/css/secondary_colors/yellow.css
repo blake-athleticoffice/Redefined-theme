@@ -1,0 +1,65 @@
+@import "compass";
+@import "redefined-variables";
+
+
+.secondary-yellow {
+	a:hover {
+	color: $color-yellow;
+}
+	
+h1.navbar-brand_ strong {
+background: $color-yellow;
+}
+nav.tm_navbar li.active > a {
+border-bottom: 6px solid $color-yellow;
+color:$color-yellow;
+}
+nav.tm_navbar li>a:hover {
+color: $color-yellow;
+border-bottom: 6px solid $color-yellow;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: $color-yellow;
+}
+.theme-btn {
+color: #fff;
+background-color: $color-yellow;
+border-color: $color-yellow;
+}
+.btn-default:hover,.btn-default:focus  {
+color: $color-yellow;
+background-color: #fff;
+border-color: $color-yellow;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .btn-primary.dropdown-toggle {
+color: white;
+background-color: $color-yellow;
+border-color: $color-yellow;
+}
+.btn-primary {
+color: $color-yellow;
+background-color: transparent;
+border: 1px solid $color-yellow;
+}
+.hr span {
+background: $color-yellow;
+}
+.theme-color {
+color: $color-yellow;
+}
+.portlet-title {
+color: $color-yellow;
+}
+.copyright {
+background-color: $color-yellow;
+}
+.copyright p {
+color: #bbb;
+}
+.copyright a {
+color: #bbb;
+}
+
+}

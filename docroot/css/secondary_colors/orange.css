@@ -1,0 +1,66 @@
+@import "compass";
+@import "redefined-variables";
+
+
+.secondary-orange {
+	a:hover {
+	color: $color-orange;
+}
+	
+h1.navbar-brand_ strong {
+background: $color-orange;
+}
+nav.tm_navbar li.active > a {
+border-bottom: 6px solid $color-orange;
+color:$color-orange;
+}
+nav.tm_navbar li>a:hover {
+color: $color-orange;
+border-bottom: 6px solid $color-orange;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: $color-orange;
+}
+.theme-btn {
+color: #fff;
+background-color: $color-orange;
+border-color: $color-orange;
+}
+.btn-default:hover,.btn-default:focus  {
+color: $color-orange;
+background-color: #fff;
+border-color: $color-orange;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .btn-primary.dropdown-toggle {
+color: white;
+background-color: $color-orange;
+border-color: $color-orange;
+}
+.btn-primary {
+color: $color-orange;
+background-color: transparent;
+border: 1px solid $color-orange;
+}
+.hr span {
+background: $color-orange;
+}
+.theme-color {
+color: $color-orange;
+}
+.portlet-title {
+color: $color-orange;
+}
+.copyright {
+background-color: $color-orange;
+}
+.copyright p {
+color: #999;
+}
+.copyright a {
+color: #999;
+}
+
+
+}

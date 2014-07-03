@@ -1,0 +1,152 @@
+@import "compass";
+
+html.aui {
+	.alert .close {
+		background: inherit;
+		border-width: 0;
+
+		@include box-shadow(none);
+
+		padding: 0;
+	}
+		#_145_dockbarMessages {
+		display: none;
+		}
+				#layoutPrototypeTemplate {
+		display: none;
+		}
+		#_145_dockbar {
+		padding: 0px;
+		margin:  0px;
+		}
+	.navbar .nav-navigation {
+	    
+
+	}
+
+	.dockbar-split .dockbar {
+	    
+		@include transition-duration(0.2s);
+		@include transition-property(margin-left);
+		
+		.navbar {
+		padding: 0px;
+		margin: 0px;
+		}
+		
+		.nav-collapse {
+		display: block;
+		}
+
+
+		#_145_navAccountControlsNavbarCollapse {
+		display: none;
+		}
+		#_145_navAccountControlsNavbarBtn {
+		display: none;
+		}
+		#_145_navAddControlsNavbarBtn {
+		display: none;
+		}
+		#_145_navSiteNavigationNavbarBtn {
+		display: none;
+		}
+		#_145_navSiteNavigationNavbarCollapse {
+		display: none;
+		}
+
+		.navbar-inner .nav-add-controls {
+			background: #FFF;
+			bottom: 0;
+			margin-left: -80px;
+			top: 0;
+			padding-top: 140px;
+
+			@include transition-duration(0.2s);
+			@include transition-property(margin-left);
+
+			.dockbar-item {
+				float: none;
+			}
+		}
+
+		.info-items, .info-link-container {
+			a {
+				background: transparent none;
+			}
+		}
+
+		.info-button .diamond {
+			border-bottom-color: transparent;
+			border-left-color: rgba(0, 0, 0, 0.5);
+			right: -12px;
+			top: 0;
+
+			&:after {
+				border-top-color: transparent;
+			}
+		}
+
+		.hide + .info-link-container .info-button .diamond {
+			border-bottom-color: rgba(0, 0, 0, 0.5);
+			border-left-color: transparent;
+			right: 0;
+			top: -12px;
+
+			&:after {
+				border-top-color: rgba(0, 0, 0, 0.5);
+			}
+		}
+
+		&.navbar-static-top .collapse, .navbar-inner .container {
+			.nav-account-controls {
+				top: 0;
+
+				@include transition-duration(0.2s);
+				@include transition-property(top);
+			}
+		}
+
+		.info-items {
+			left: auto;
+			position: relative;
+			right: 0;
+			top: 44px;
+
+			.page-customization-bar .page-customization-bar-text {
+				height: 74px;
+			}
+
+			.btn-link {
+				border-width: inherit;
+				padding: 4px 12px;
+				text-decoration: none;
+				text-shadow: inherit;
+			}
+		}
+
+		.info-link-container {
+			left: auto;
+			position: relative;
+			right: 0;
+			top: 56px;
+		}
+	}
+}
+
+.aui .dockbar-split.show-dockbar {
+	#wrapper, .so-portlet-user-bar {
+		border-left: 63px solid #fff;
+
+		@include transition-duration(0.2s);
+		@include transition-property(border-left);
+	}
+
+	.dockbar .navbar-inner .nav-add-controls {
+		background: #fff;
+		bottom: 0;
+		margin-left: -15px;
+		top: 0;
+		padding-top: 140px;
+	}
+}

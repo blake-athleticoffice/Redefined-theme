@@ -1,0 +1,66 @@
+@import "compass";
+@import "redefined-variables";
+
+
+.secondary-blue-powder {
+	a:hover {
+	color: $color-blue-powder;
+}
+	
+h1.navbar-brand_ strong {
+background: $color-blue-powder;
+}
+nav.tm_navbar li.active > a {
+border-bottom: 6px solid $color-blue-powder;
+color:$color-blue-powder;
+}
+nav.tm_navbar li>a:hover {
+color: $color-blue-powder;
+border-bottom: 6px solid $color-blue-powder;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: $color-blue-powder;
+}
+.theme-btn {
+color: #fff;
+background-color: $color-blue-powder;
+border-color: $color-blue-powder;
+}
+.btn-default:hover,.btn-default:focus  {
+color: $color-blue-powder;
+background-color: #fff;
+border-color: $color-blue-powder;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .btn-primary.dropdown-toggle {
+color: white;
+background-color: $color-blue-powder;
+border-color: $color-blue-powder;
+}
+.btn-primary {
+color: $color-blue-powder;
+background-color: transparent;
+border: 1px solid $color-blue-powder;
+}
+.hr span {
+background: $color-blue-powder;
+}
+.theme-color {
+color: $color-blue-powder;
+}
+.portlet-title {
+color: $color-blue-powder;
+}
+.copyright {
+background-color: $color-blue-powder;
+}
+.copyright p {
+color: #bbb;
+}
+.copyright a {
+color: #bbb;
+}
+
+
+}

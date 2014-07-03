@@ -1,0 +1,66 @@
+@import "compass";
+@import "redefined-variables";
+
+
+.secondary-crimson {
+	a:hover {
+	color: $color-crimson;
+}
+	
+h1.navbar-brand_ strong {
+background: $color-crimson;
+}
+nav.tm_navbar li.active > a {
+border-bottom: 6px solid $color-crimson;
+color:$color-crimson;
+}
+nav.tm_navbar li>a:hover {
+color: $color-crimson;
+border-bottom: 6px solid $color-crimson;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: $color-crimson;
+}
+.theme-btn {
+color: #fff;
+background-color: $color-crimson;
+border-color: $color-crimson;
+}
+.btn-default:hover,.btn-default:focus  {
+color: $color-crimson;
+background-color: #fff;
+border-color: $color-crimson;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .btn-primary.dropdown-toggle {
+color: white;
+background-color: $color-crimson;
+border-color: $color-crimson;
+}
+.btn-primary {
+color: $color-crimson;
+background-color: transparent;
+border: 1px solid $color-crimson;
+}
+.hr span {
+background: $color-crimson;
+}
+.theme-color {
+color: $color-crimson;
+}
+.portlet-title {
+color: $color-crimson;
+}
+.copyright {
+background-color: $color-crimson;
+}
+.copyright p {
+color: #999;
+}
+.copyright a {
+color: #999;
+}
+
+
+}

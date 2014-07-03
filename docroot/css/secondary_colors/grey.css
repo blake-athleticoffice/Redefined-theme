@@ -1,0 +1,64 @@
+@import "compass";
+@import "redefined-variables";
+
+
+.secondary-grey {
+	a:hover {
+	color: $color-grey;
+}
+	
+h1.navbar-brand_ strong {
+background: $color-grey;
+}
+nav.tm_navbar li.active > a {
+border-bottom: 6px solid $color-grey;
+color:$color-grey;
+}
+nav.tm_navbar li>a:hover {
+color: $color-grey;
+border-bottom: 6px solid $color-grey;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: $color-grey;
+}
+.theme-btn {
+color: #fff;
+background-color: $color-grey;
+border-color: $color-grey;
+}
+.btn-default:hover,.btn-default:focus  {
+color: $color-grey;
+background-color: #fff;
+border-color: $color-grey;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .btn-primary.dropdown-toggle {
+color: white;
+background-color: $color-grey;
+border-color: $color-grey;
+}
+.btn-primary {
+color: $color-grey;
+background-color: transparent;
+border: 1px solid $color-grey;
+}
+.hr span {
+background: $color-grey;
+}
+.theme-color {
+color: $color-grey;
+}
+.portlet-title {
+color: $color-grey;
+}
+.copyright {
+background-color: $color-grey;
+}
+.copyright p {
+color: #eee;
+}
+.copyright a {
+color: #eee;
+}
+}

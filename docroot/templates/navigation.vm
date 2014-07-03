@@ -1,0 +1,41 @@
+   <nav class="navbar navbar-default navbar-static-top tm_navbar" role="navigation" id="main-nav">
+   <div class="navbar-header visible-xs">
+			<a class="navbar-brand logo-nav" href="$site_default_url"><span class="mini-header theme-color">$headline</span></a>
+			 <span id="nav-toggle" class="navbar-toggle">
+			 <span class="icon icon-large icon-reorder"></span>
+             </span>
+		</div>
+<div class="nav-collapse" id="inner-nav">
+                    	<ul class="nav sf-menu clearfix">
+						
+		
+			#foreach ($nav_item in $nav_items)
+						#set ($nav_item_attr_selected="")
+						#set ($nav_item_css_class="")
+
+					#if ($nav_item.isSelected())
+						#set ($nav_item_css_class="active")
+					#end
+					
+
+					#if (!$nav_item.hasChildren())
+						<li class="$nav_item_css_class"><a href="$nav_item.getURL()" >$nav_item.getName()</a></li>
+						
+					#else
+					#set ($nav_item_css_class="dropdown" + $nav_item_css_class)
+					<li class="$nav_item_css_class">
+					<a href="#" class="sub-menu" data-toggle="dropdown">$nav_item.getName() <i class="icon-angle-down"></i></a>
+					<ul class="submenu sub-menu">
+					#foreach ($nav_child in $nav_item.getChildren())
+					<li><a href="$nav_child.getURL()">$nav_child.getName()</a></li>
+					#end
+					</ul>
+					</li>
+					#end
+				
+					#end
+						
+						
+						   	</ul>
+							</div>
+                    </nav>
