@@ -17,9 +17,7 @@ AUI().ready(
 	        navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
 	        navActiveClass: "js-nav-active", // String: Class that is added to <html> element when nav is active
 	        jsClass: "js", // String: 'JS enabled' class which is added to <html> element
-	        init: function(){
-	        	A.one('body').prepend('<div class="mask"></div>');
-	        }, // Function: Init callback
+	        init: function(){}, // Function: Init callback
 	        open: function(){}, // Function: Open callback
 	        close: function(){} // Function: Close callback
 	    });
