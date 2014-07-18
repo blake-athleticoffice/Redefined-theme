@@ -129,6 +129,11 @@
     z-index: 10;
     border-top: 1px solid #eaebee;
     background: #fff; }
+  .aui .menuBox.box-static {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; }
   .aui nav.tm_navbar {
     background: none;
     border: none;

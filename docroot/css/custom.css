@@ -12,7 +12,7 @@ margin-top: 20px;
 #inner-nav.opened > ul {
 float:none !important;
 background: #fff;
-
+display: block;
 }
 #inner-nav.opened > ul > li {
 width:100%;
@@ -46,7 +46,6 @@ font-size: 16px;
 
 .js-nav-active body {
 overflow:hidden;
-position: fixed;
 }
 
 
@@ -55,6 +54,7 @@ background-color:#fff;
 padding: 6px !important;
 cursor: pointer;
 }
+
 .js-nav-active .navbar-header {
 opacity: .4;
 }

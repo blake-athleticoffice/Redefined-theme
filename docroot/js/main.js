@@ -6,9 +6,9 @@ AUI().ready(
 		var thisBody = A.one('document');
 		thisWindow.on('scroll', function(){
 			  if(thisBody.get("scrollTop") == 0) {
-				    A.one('.wowmenu').removeClass('tiny');
+				    A.one('.menuBox').removeClass('box-static');
 				  } else {
-				    A.one('.wowmenu').addClass('tiny');
+				    A.one('.menuBox').addClass('box-static');
 				  }
 		});
 		

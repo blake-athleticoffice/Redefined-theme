@@ -129,6 +129,11 @@
     z-index: 10;
     border-top: 1px solid #eaebee;
     background: #fff; }
+  .aui .menuBox.box-static {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; }
   .aui nav.tm_navbar {
     background: none;
     border: none;
@@ -4091,7 +4096,8 @@ html.aui .dockbar-split .dockbar {
 
 #inner-nav.opened > ul {
   float: none !important;
-  background: #fff; }
+  background: #fff;
+  display: block; }
 
 #inner-nav.opened > ul > li {
   width: 100%;
@@ -4120,8 +4126,7 @@ html.aui .dockbar-split .dockbar {
     margin-top: 10px;
     font-size: 16px; } }
 .js-nav-active body {
-  overflow: hidden;
-  position: fixed; }
+  overflow: hidden; }
 
 #nav-toggle {
   background-color: #fff;
