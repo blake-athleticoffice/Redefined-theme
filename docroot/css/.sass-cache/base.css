@@ -7,7 +7,8 @@
 /* ---------- HTML editor ---------- */
 body.html-editor {
   background: #FFF;
-  color: #000; }
+  color: #000;
+  padding: 1em; }
 
 .html-editor.portlet-message-boards {
   -ms-word-break: break-all;
@@ -20,16 +21,15 @@ body.html-editor {
   .html-editor.portlet-message-boards blockquote {
     background: #eef0f2 url(../images/message_boards/quoteleft.png) no-repeat 5px 5px;
     border: 1px solid #777;
-    position: relative;
     padding: 5px 45px; }
     .html-editor.portlet-message-boards blockquote:after {
       background: url(../images/message_boards/quoteright.png) no-repeat 50%;
-      bottom: 5px;
       content: '';
       display: block;
+      float: right;
       height: 24px;
-      position: absolute;
-      right: 5px;
+      margin-right: -35px;
+      margin-top: -25px;
       width: 31px;
       z-index: 999; }
     .html-editor.portlet-message-boards blockquote cite {
@@ -75,4 +75,3 @@ body.html-editor {
 #skip-to-content {
   clip: rect(0 0 0 0);
   position: absolute; }
-

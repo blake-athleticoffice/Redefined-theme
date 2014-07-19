@@ -11,10 +11,6 @@ color: #777;
 }
 h1.navbar-brand_ span small {
 font-size: 50%;
-opacity: .7;
-}
-.menuBox {
-background: #FFF;
 }
 nav.tm_navbar li a {
 color: #999;
@@ -38,7 +34,7 @@ color: #777;
 border-bottom: 1px solid #eaebee;
 }
 footer {
-background: #FFF;
+background: #f1f1f1;
 border-top: 1px solid #eaebee;
 }
 footer {
@@ -66,6 +62,23 @@ background-color: transparent;
 color: #bbb;
 border: none;
 border-color: transparent;
+}
+.menuBox {
+background: #FFF;
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+}
+.menuBox.box-static {
+background: rgba(235, 235, 235, 0.87) !important;
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+}
+@media (max-width: 767px) {
+#inner-nav.opened > ul {
+border-top: 1px solid #ccc;
+}
 }
 
 }

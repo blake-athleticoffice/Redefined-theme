@@ -34,13 +34,16 @@
   color: #e60000; }
 .secondary-red .portlet-title {
   color: #e60000; }
-.secondary-red .btn-primary {
-  color: #e60000;
-  border: 1px solid #e60000; }
 .secondary-red .copyright {
   background-color: #e60000; }
 .secondary-red .copyright p {
   color: #bbb; }
 .secondary-red .copyright a {
   color: #bbb; }
-
+.secondary-red .btn-primary {
+  color: #e60000;
+  border: 1px solid #e60000; }
+@media (max-width: 767px) {
+  .secondary-red nav.tm_navbar li.active > a {
+    border-bottom: none;
+    color: #e60000; } }

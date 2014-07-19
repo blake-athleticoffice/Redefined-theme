@@ -61,5 +61,15 @@ color: #bbb;
 .copyright a {
 color: #bbb;
 }
+.btn-primary {
+color: $color-yellow;
+border: 1px solid $color-yellow;
+}
+@media (max-width: 767px) {
+nav.tm_navbar li.active > a {
+border-bottom: none;
+color: $color-yellow;
+}
+}
 
 }

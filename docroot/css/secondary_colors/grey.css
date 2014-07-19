@@ -61,4 +61,15 @@ color: #eee;
 .copyright a {
 color: #eee;
 }
+.btn-primary {
+color: $color-grey;
+border: 1px solid $color-grey;
+}
+@media (max-width: 767px) {
+nav.tm_navbar li.active > a {
+border-bottom: none;
+color: $color-grey;
+}
+}
+
 }

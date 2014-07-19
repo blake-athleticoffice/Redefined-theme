@@ -3,10 +3,7 @@
 .light h1.navbar-brand_ span {
   color: #777; }
 .light h1.navbar-brand_ span small {
-  font-size: 50%;
-  opacity: .7; }
-.light .menuBox {
-  background: #FFF; }
+  font-size: 50%; }
 .light nav.tm_navbar li a {
   color: #999; }
 .light nav.tm_navbar li > a:hover {
@@ -22,7 +19,7 @@
 .light .sub_pic {
   border-bottom: 1px solid #eaebee; }
 .light footer {
-  background: #FFF;
+  background: #f1f1f1;
   border-top: 1px solid #eaebee; }
 .light footer {
   background-image: url(/Redefined-theme/images/bg-footer-light.png);
@@ -44,4 +41,16 @@
   color: #bbb;
   border: none;
   border-color: transparent; }
-
+.light .menuBox {
+  background: #FFF;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18); }
+.light .menuBox.box-static {
+  background: rgba(235, 235, 235, 0.87) !important;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18); }
+@media (max-width: 767px) {
+  .light #inner-nav.opened > ul {
+    border-top: 1px solid #ccc; } }

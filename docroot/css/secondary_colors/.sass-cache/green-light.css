@@ -40,4 +40,10 @@
   color: #bbb; }
 .secondary-green-light .copyright a {
   color: #bbb; }
-
+.secondary-green-light .btn-primary {
+  color: #00b16a;
+  border: 1px solid #00b16a; }
+@media (max-width: 767px) {
+  .secondary-green-light nav.tm_navbar li.active > a {
+    border-bottom: none;
+    color: #00b16a; } }

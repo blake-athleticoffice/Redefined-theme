@@ -166,6 +166,14 @@
   padding: 1px; }
 
 /* ---------- Miscellaneous ---------- */
+.hsv-palette .hsv-view-container .hsv-label-value-hex .hsv-value {
+  width: 95px; }
+.hsv-palette .hsv-view-container .hsv-label {
+  display: inline;
+  margin-left: 5px; }
+.hsv-palette .hsv-view-container .hsv-value {
+  width: 30px; }
+
 .lfr-panel-container {
   background: #FFF; }
 
@@ -427,6 +435,9 @@
   height: 25px;
   width: 25px; }
 
+.yui3-color-picker-popover .palette-container {
+  border-collapse: separate; }
+
 .ie .proxy.not-intersecting .forbidden-action {
   right: 2px;
   top: 2px; }
@@ -452,4 +463,3 @@
 .ios.mobile .modal-content .dialog-iframe-bd {
   overflow: auto;
   -webkit-overflow-scrolling: touch; }
-

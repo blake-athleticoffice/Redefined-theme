@@ -40,4 +40,10 @@
   color: #bbb; }
 .secondary-blue-powder .copyright a {
   color: #bbb; }
-
+.secondary-blue-powder .btn-primary {
+  color: #3498db;
+  border: 1px solid #3498db; }
+@media (max-width: 767px) {
+  .secondary-blue-powder nav.tm_navbar li.active > a {
+    border-bottom: none;
+    color: #3498db; } }

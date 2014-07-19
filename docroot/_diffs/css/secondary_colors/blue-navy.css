@@ -61,6 +61,15 @@ color: #999;
 .copyright a {
 color: #999;
 }
-
+.btn-primary {
+color: $color-blue-navy;
+border: 1px solid $color-blue-navy;
+}
+@media (max-width: 767px) {
+nav.tm_navbar li.active > a {
+border-bottom: none;
+color: $color-blue-navy;
+}
+}
 
 }

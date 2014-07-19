@@ -40,4 +40,10 @@
   color: #999; }
 .secondary-maroon .copyright a {
   color: #999; }
-
+.secondary-maroon .btn-primary {
+  color: maroon;
+  border: 1px solid maroon; }
+@media (max-width: 767px) {
+  .secondary-maroon nav.tm_navbar li.active > a {
+    border-bottom: none;
+    color: maroon; } }

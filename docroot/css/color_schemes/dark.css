@@ -13,10 +13,6 @@ h1.navbar-brand_ span small {
 font-size: 50%;
 opacity: .7;
 }
-.menuBox {
-background: $color-light-black;
-border-top: 1px solid #333;
-}
 nav.tm_navbar li a {
 color: #7D7D7D;
 }
@@ -49,7 +45,7 @@ background-repeat: no-repeat;
 background-size: contain;
 }
 footer h1.footer-brand {
-color: #555;
+color: #999;
 }
 nav.tm_navbar li a {
 color: #7D7D7D;
@@ -65,4 +61,24 @@ color: #eee;
 border: none;
 border-color: transparent;
 }
+.menuBox {
+background: $color-light-black;
+border-top: 1px solid #333;
+}
+.menuBox.box-static {
+background: rgba(0, 0, 0, 0.80) !important;
+border-top: 1px solid #333;
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+}
+@media (max-width: 767px) {
+.menuBox {
+background: #222;
+}
+#inner-nav.opened > ul {
+background: rgba(0, 0, 0, 0.7) !important;
+}
+}
+
 }

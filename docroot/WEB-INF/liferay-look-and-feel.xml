@@ -13,7 +13,6 @@
 			<setting configurable="true" key="site-headline" type="text"></setting>
 			<setting configurable="true" key="tagline" type="text"></setting>
 			<setting configurable="true" key="masthead-image" type="text"></setting>
-			<setting configurable="true" key="background-image" type="text"></setting>
 				<setting configurable="true" key="favicon" type="text"></setting>
 			<setting configurable="true" key="address" type="text"></setting>
 			<setting configurable="true" key="phone" type="text"></setting>

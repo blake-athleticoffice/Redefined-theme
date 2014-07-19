@@ -56,7 +56,7 @@ cursor: pointer;
 }
 
 .js-nav-active .navbar-header {
-opacity: .4;
+opacity: .8;
 }
 
 .js .nav-collapse-0.opened {

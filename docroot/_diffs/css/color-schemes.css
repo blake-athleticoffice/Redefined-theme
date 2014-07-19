@@ -3,9 +3,7 @@
 
 
 @import url(./color_schemes/light.css);
-@import url(./color_schemes/grey.css);
 @import url(./color_schemes/dark.css);
-@import url(./color_schemes/red.css);
 
 @import url(./secondary_colors/blue-navy.css);
 @import url(./secondary_colors/blue-powder.css);

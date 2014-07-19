@@ -37,7 +37,13 @@
 .secondary-orange .copyright {
   background-color: #ffa319; }
 .secondary-orange .copyright p {
-  color: #999; }
+  color: #eee; }
 .secondary-orange .copyright a {
-  color: #999; }
-
+  color: #eee; }
+.secondary-orange .btn-primary {
+  color: #ffa319;
+  border: 1px solid #ffa319; }
+@media (max-width: 767px) {
+  .secondary-orange nav.tm_navbar li.active > a {
+    border-bottom: none;
+    color: #ffa319; } }

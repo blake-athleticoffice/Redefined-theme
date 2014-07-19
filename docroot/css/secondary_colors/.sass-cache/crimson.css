@@ -40,4 +40,10 @@
   color: #999; }
 .secondary-crimson .copyright a {
   color: #999; }
-
+.secondary-crimson .btn-primary {
+  color: #930d18;
+  border: 1px solid #930d18; }
+@media (max-width: 767px) {
+  .secondary-crimson nav.tm_navbar li.active > a {
+    border-bottom: none;
+    color: #930d18; } }

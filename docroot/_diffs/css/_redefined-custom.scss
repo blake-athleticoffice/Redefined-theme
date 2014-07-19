@@ -21,7 +21,7 @@ padding: 0;
 }
 #content {
 max-width: 1200px;
-margin: -12px auto 0;
+margin: 0 auto;
 background: rgba(255, 255, 255, 0.85);
 }
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
@@ -108,7 +108,7 @@ border: none;
 border-top-width: 0;
 padding: 10px;
 }
-portlet-borderless-container {
+.portlet-borderless-container {
 padding: 10px;
 }
 .global.indent {
@@ -230,4 +230,42 @@ h3 {
 margin: 0 0 20px 0;
 font: bold 24px / 24px "Orbitron";
 color: #999;
+}
+@media screen and (max-width: 600px) {
+.navbar-header {
+padding-left: 15px;
+margin-bottom: 0;
+}
+}
+.sub_pic figure {
+background: url(/Redefined-theme/images/overlay.png) repeat;
+padding: 50px 0;
+}
+.portlet-asset-publisher .asset-title a:hover {
+text-decoration:none;
+}
+@media (max-width: 767px) {
+nav.tm_navbar ul {
+margin: 7.5px -15px;
+}
+#inner-nav.opened > ul > li > a {
+padding-left: 30px;
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+font-size: 12px !important;
+line-height: 40px !important;
+transition: none;
+}
+nav.tm_navbar li a {
+height: 40px;
+}
+#inner-nav.opened > ul > li {
+background: transparent;
+}
+#inner-nav.opened {
+display: block !important;
+margin-top: 0;
+}
 }

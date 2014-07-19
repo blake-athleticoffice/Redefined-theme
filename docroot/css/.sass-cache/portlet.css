@@ -66,55 +66,61 @@ body.portlet {
   top: 0 !important;
   left: 0 !important; }
 
-.portlet-borderless-bar, .portlet-content .lfr-icon-actions {
+.portlet-borderless-bar, .portlet-borderless-container .lfr-icon-actions, .portlet-content .lfr-icon-actions {
   background: #333;
   color: #FFF;
   text-shadow: -1px -1px #000; }
-  .portlet-borderless-bar a, .portlet-content .lfr-icon-actions a {
+  .portlet-borderless-bar a, .portlet-borderless-container .lfr-icon-actions a, .portlet-content .lfr-icon-actions a {
     color: #3AF; }
 
-.portlet-borderless-container:hover .portlet-borderless-bar, .portlet-content:hover .lfr-icon-actions {
+.portlet-borderless-container:hover .portlet-borderless-bar, .portlet-borderless-container:hover .lfr-icon-actions, .portlet-content:hover .lfr-icon-actions {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 
-.portlet-borderless-container:hover .portlet-borderless-bar .portlet-actions, .portlet-content:hover .lfr-icon-actions .taglib-text {
+.portlet-borderless-container:hover .portlet-borderless-bar .portlet-actions, .portlet-borderless-container:hover .lfr-icon-actions .taglib-text, .portlet-content:hover .lfr-icon-actions .taglib-text {
   display: inline-block; }
 
-.portlet-content .lfr-icon-actions {
+.portlet-borderless-bar .portlet-options .dropdown-toggle, .portlet-borderless-bar .portlet-options.open .dropdown-toggle {
+  background-image: url(../images/portlet/options_borderless.png); }
+
+.portlet-borderless-container .lfr-icon-actions, .portlet-content .lfr-icon-actions {
   float: left;
   margin: 1px 10px 1px 1px;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
   padding: 2px 7px; }
-  .portlet-content .lfr-icon-actions .taglib-text {
+  .portlet-borderless-container .lfr-icon-actions .taglib-text, .portlet-content .lfr-icon-actions .taglib-text {
     color: #FFF;
     display: none;
     font-weight: bold;
     margin-right: 1em;
     text-decoration: none;
     vertical-align: middle; }
-  .portlet-content .lfr-icon-actions .lfr-icon-action a {
+  .portlet-borderless-container .lfr-icon-actions .lfr-icon-action a, .portlet-content .lfr-icon-actions .lfr-icon-action a {
     background: url() no-repeat 0 50%;
     display: inline-block;
     margin-left: 5px;
     vertical-align: top; }
-    .portlet-content .lfr-icon-actions .lfr-icon-action a:hover {
+    .portlet-borderless-container .lfr-icon-actions .lfr-icon-action a:hover, .portlet-content .lfr-icon-actions .lfr-icon-action a:hover {
       text-decoration: none; }
-      .portlet-content .lfr-icon-actions .lfr-icon-action a:hover span {
+      .portlet-borderless-container .lfr-icon-actions .lfr-icon-action a:hover span, .portlet-content .lfr-icon-actions .lfr-icon-action a:hover span {
         text-decoration: underline; }
-    .portlet-content .lfr-icon-actions .lfr-icon-action a img {
+    .portlet-borderless-container .lfr-icon-actions .lfr-icon-action a img, .portlet-content .lfr-icon-actions .lfr-icon-action a img {
       visibility: hidden; }
-  .portlet-content .lfr-icon-actions .lfr-icon-action-add a {
+  .portlet-borderless-container .lfr-icon-actions .lfr-icon-action-add a, .portlet-content .lfr-icon-actions .lfr-icon-action-add a {
     background-image: url(../images/common/add_white.png); }
-  .portlet-content .lfr-icon-actions .lfr-icon-action-edit a {
+  .portlet-borderless-container .lfr-icon-actions .lfr-icon-action-edit a, .portlet-content .lfr-icon-actions .lfr-icon-action-edit a {
     background-image: url(../images/common/edit_white.png); }
-  .portlet-content .lfr-icon-actions .lfr-icon-action-edit-template a {
+  .portlet-borderless-container .lfr-icon-actions .lfr-icon-action-edit-template a, .portlet-content .lfr-icon-actions .lfr-icon-action-edit-template a {
     background-image: url(../images/common/edit_template_white.png); }
-  .portlet-content .lfr-icon-actions .lfr-icon-action-configuration a {
+  .portlet-borderless-container .lfr-icon-actions .lfr-icon-action-configuration a, .portlet-content .lfr-icon-actions .lfr-icon-action-configuration a {
     background-image: url(../images/common/configuration_white.png); }
-.portlet-content .lfr-url-error {
+.portlet-borderless-container .lfr-url-error, .portlet-content .lfr-url-error {
   display: inline-block;
-  white-space: normal; }
+  white-space: normal;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word; }
 
 /* ---------- Borderless portlet ---------- */
 .portlet-borderless-container {
@@ -149,6 +155,7 @@ body.portlet {
   .portlet-borderless-bar .portlet-action-separator {
     display: none; }
   .portlet-borderless-bar .portlet-back a {
+    color: #FFF;
     height: auto;
     text-indent: 0;
     width: auto; }
@@ -164,7 +171,7 @@ body.portlet {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 
-.portlet-content .icons-container {
+.portlet-borderless-container .icons-container, .portlet-content .icons-container {
   clear: both;
   height: auto;
   margin-top: 1em;
@@ -329,7 +336,8 @@ body.portlet {
   background-image: url();
   background-position: 5px 50%;
   background-repeat: no-repeat;
-  padding-left: 30px; }
+  padding-left: 30px;
+  vertical-align: middle; }
 .table-data tr.lfr-role-guest .first {
   background-image: url(../images/common/guest_icon.png); }
 .table-data tr.lfr-role-regular .first {
@@ -417,4 +425,3 @@ body.portlet {
 
 .ie8 .dockbar img, .ie8 .lfr-icon-action img, .ie8 .logo img {
   max-width: none; }
-

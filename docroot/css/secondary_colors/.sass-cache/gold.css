@@ -40,4 +40,10 @@
   color: #bbb; }
 .secondary-gold .copyright a {
   color: #bbb; }
-
+.secondary-gold .btn-primary {
+  color: #b89b00;
+  border: 1px solid #b89b00; }
+@media (max-width: 767px) {
+  .secondary-gold nav.tm_navbar li.active > a {
+    border-bottom: none;
+    color: #b89b00; } }

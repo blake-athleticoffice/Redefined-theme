@@ -56,11 +56,20 @@ color: $color-orange;
 background-color: $color-orange;
 }
 .copyright p {
-color: #999;
+color: #eee;
 }
 .copyright a {
-color: #999;
+color: #eee;
 }
-
+.btn-primary {
+color: $color-orange;
+border: 1px solid $color-orange;
+}
+@media (max-width: 767px) {
+nav.tm_navbar li.active > a {
+border-bottom: none;
+color: $color-orange;
+}
+}
 
 }

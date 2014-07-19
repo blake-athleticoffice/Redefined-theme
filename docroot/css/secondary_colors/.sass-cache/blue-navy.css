@@ -40,4 +40,10 @@
   color: #999; }
 .secondary-blue-navy .copyright a {
   color: #999; }
-
+.secondary-blue-navy .btn-primary {
+  color: #004983;
+  border: 1px solid #004983; }
+@media (max-width: 767px) {
+  .secondary-blue-navy nav.tm_navbar li.active > a {
+    border-bottom: none;
+    color: #004983; } }

@@ -52,10 +52,6 @@ color: $color-red;
 .portlet-title {
 color: $color-red;
 }
-.btn-primary {
-color: $color-red;
-border: 1px solid $color-red;
-}
 .copyright {
 background-color: $color-red;
 }
@@ -64,6 +60,16 @@ color: #bbb;
 }
 .copyright a {
 color: #bbb;
+}
+.btn-primary {
+color: $color-red;
+border: 1px solid $color-red;
+}
+@media (max-width: 767px) {
+nav.tm_navbar li.active > a {
+border-bottom: none;
+color: $color-red;
+}
 }
 
 }

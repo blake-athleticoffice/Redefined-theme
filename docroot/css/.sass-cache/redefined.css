@@ -290,8 +290,7 @@
     padding: 0;
     background-size: cover;
     display: block;
-    width: 100%;
-    z-index: 10; }
+    width: 100%; }
     .aui header article > div {
       float: right; }
       .aui header article > div p {
@@ -3212,7 +3211,7 @@
     padding: 0; }
   .aui #content {
     max-width: 1200px;
-    margin: -12px auto 0;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.85); }
   .aui .navbar .navbar-brand:hover, .aui .navbar .navbar-brand:focus {
     text-decoration: none; }
@@ -3265,7 +3264,7 @@
     border: none;
     border-top-width: 0;
     padding: 10px; }
-  .aui portlet-borderless-container {
+  .aui .portlet-borderless-container {
     padding: 10px; }
   .aui .global.indent {
     padding-top: 0; }
@@ -3362,4 +3361,31 @@
     margin: 0 0 20px 0;
     font: bold 24px / 24px "Orbitron";
     color: #999; }
-
+  @media screen and (max-width: 600px) {
+    .aui .navbar-header {
+      padding-left: 15px;
+      margin-bottom: 0; } }
+  .aui .sub_pic figure {
+    background: url(/Redefined-theme/images/overlay.png) repeat;
+    padding: 50px 0; }
+  .aui .portlet-asset-publisher .asset-title a:hover {
+    text-decoration: none; }
+  @media (max-width: 767px) {
+    .aui nav.tm_navbar ul {
+      margin: 7.5px -15px; }
+    .aui #inner-nav.opened > ul > li > a {
+      padding-left: 30px;
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+      font-size: 12px !important;
+      line-height: 40px !important;
+      transition: none; }
+    .aui nav.tm_navbar li a {
+      height: 40px; }
+    .aui #inner-nav.opened > ul > li {
+      background: transparent; }
+    .aui #inner-nav.opened {
+      display: block !important;
+      margin-top: 0; } }

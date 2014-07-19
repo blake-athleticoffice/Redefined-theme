@@ -1,4 +1,13 @@
    <nav class="navbar navbar-default navbar-static-top tm_navbar" role="navigation" id="main-nav">
+   <div class="visible-lg">
+							#if ($is_signed_in)
+							<div class="pull-left" style="margin-left:25px;">
+				<a class="icon icon-2x icon-cog" href="javascript:;" id="toggleDockbar"></a>
+				</div>
+			#end
+			</div>
+           <div class="container">
+            <div class="row">
    <div class="navbar-header visible-xs">
 			<a class="navbar-brand logo-nav" href="$site_default_url"><span class="mini-header theme-color">$headline</span></a>
 			 <span id="nav-toggle" class="navbar-toggle">
@@ -37,5 +46,7 @@
 						
 						
 						   	</ul>
-							</div>
-                    </nav>
+					</div>
+				 </div>
+        	</div>
+</nav>
